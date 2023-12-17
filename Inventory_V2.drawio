@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-17T03:43:36.829Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gzrJUamOXwKKWzRVfmB5" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-17T03:44:19.260Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3J8or-AkxafcOA4qY1Bz" version="22.1.11" type="github">
   <diagram name="Seite-1" id="TQNiA3lFw16Ix_GrtYa4">
-    <mxGraphModel dx="1906" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2715" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry y="50" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8caW-aM3lj9bGC5bDLN5-46" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-480" y="60" width="320" height="40" as="geometry" />
+          <mxGeometry x="-610" y="60" width="450" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8caW-aM3lj9bGC5bDLN5-47" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-90" y="60" width="710" height="40" as="geometry" />
@@ -28,7 +28,7 @@
         <mxCell id="8caW-aM3lj9bGC5bDLN5-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8caW-aM3lj9bGC5bDLN5-48" target="8caW-aM3lj9bGC5bDLN5-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8caW-aM3lj9bGC5bDLN5-48" value="Site" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="8caW-aM3lj9bGC5bDLN5-48" value="&quot;Webpage&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-280" y="130" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8caW-aM3lj9bGC5bDLN5-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8caW-aM3lj9bGC5bDLN5-49" target="8caW-aM3lj9bGC5bDLN5-51" edge="1">
