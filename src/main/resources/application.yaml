@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    generate-unique-name: false
+    name: inventory_v2
+    url: jdbc:h2:mem:inventory_v2
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  data:
+    rest:
+      base-path: /data-api
+  jpa:
+    hibernate:
+      ddl-auto: none
+  sql:
+    init:
+      mode: always
+
+
+logging:
+  level:
+    org:
+      springframework.jdbc: DEBUG
+
+
+
