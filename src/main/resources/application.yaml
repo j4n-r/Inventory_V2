@@ -1,18 +1,19 @@
 spring:
   datasource:
-    generate-unique-name: false
-    name: inventory_v2
-    url: jdbc:h2:mem:inventory_v2
-    driverClassName: org.h2.Driver
-    username: sa
-    password:
+    url: jdbc:postgresql://localhost:5432/inventory_v2
+    username: postgres
+    password: mine8465
+    driver-class-name: org.postgresql.Driver
   data:
     rest:
       base-path: /data-api
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: update
     show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
   sql:
     init:
       mode: always
