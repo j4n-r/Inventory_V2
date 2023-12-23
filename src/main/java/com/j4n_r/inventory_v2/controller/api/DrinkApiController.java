@@ -23,9 +23,8 @@ public class DrinkApiController {
     }
 
     @GetMapping("/{id}")
-    public Drink getDrink(@PathVariable("id") Long product_id) {
-        return drinkRepository.findById(product_id)
-                .orElseThrow(() -> new EntityNotFoundException("Drink not found"));
+    public Drink getDrink(@PathVariable("id") Drink drink) {
+        return drink;
     }
 
     // TODO add remaining get methods

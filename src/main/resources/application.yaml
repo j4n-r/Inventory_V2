@@ -12,10 +12,10 @@ spring:
   jpa:
     hibernate:
       ddl-auto: none
+    show-sql: true
   sql:
     init:
       mode: always
-
 
 logging:
   level:

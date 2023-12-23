@@ -22,10 +22,10 @@ create table if not exists sale(
 );
 
 
-create table if not exists "user"(
+create table if not exists users(
     user_id int auto_increment,
     username varchar(255),
     password varchar(255),
-    role varchar(255)
+    roles varchar(255)
 );
 /* TODO add table for data, purchase, purchaseItem, saleItem, USer */

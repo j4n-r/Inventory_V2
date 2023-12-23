@@ -4,7 +4,6 @@ INSERT INTO category (name) VALUES ( 'Soda' );
 INSERT INTO category (name) VALUES ( 'Bier' );
 INSERT INTO sale ( drink_id, quantity, sale_date) VALUES (  2, 4, '2023-12-20' );
 INSERT INTO sale (drink_id, quantity, sale_date) VALUES ( 1, 10, '2023-12-24' );
-INSERT INTO "user"(username, password, role) VALUES ( 'Admin@test.com', 'admin', 'ROLE_ADMIN' );
 
 //TODO Refactor drink to product
 //TODO add sample data for Purchase and user
