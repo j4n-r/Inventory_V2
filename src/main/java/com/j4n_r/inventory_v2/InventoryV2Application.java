@@ -17,13 +17,15 @@ public class InventoryV2Application {
         SpringApplication.run(InventoryV2Application.class, args);
     }
 
-    @Bean
-    CommandLineRunner commandLineRunner(UserRepository userRepository, PasswordEncoder encoder) {
-        return args -> {
-            userRepository.save(new User("user", encoder.encode("password"), "ROLE_USER"));
-            userRepository.save(new User("admin", encoder.encode("password"), "ROLE_ADMIN, ROLE_USER"));
-        };
-    }
+//    @Bean
+//    CommandLineRunner commandLineRunner(UserRepository userRepository, PasswordEncoder encoder) {
+//        return args -> {
+//            userRepository.save(new User("user1", encoder.encode("user"), "ROLE_USER"));
+//            userRepository.save(new User("user2", encoder.encode("user"), "ROLE_USER"));
+//            userRepository.save(new User("user3", encoder.encode("user"), "ROLE_USER"));
+//            userRepository.save(new User("admin", encoder.encode("admin"), "ROLE_ADMIN, ROLE_USER"));
+//        };
+//    }
 }
 
 

@@ -12,17 +12,18 @@ import lombok.NoArgsConstructor;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
+@Table(name = "drinks")
 public class Drink {
     @Id
-    @GeneratedValue (strategy = GenerationType.AUTO)
-    private Long product_id;
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
+    private Long productId;
 
-    private String name;
-    private boolean is_alcoholic;
-    private double purchase_price;
-    private double sale_price;
-    private int available_quantity;
-    private String img_url;
+    private String productName;
+    private boolean isAlcoholic;
+    private double productPurchasePrice;
+    private double productSalePrice;
+    private int availableQuantity;
+    private String imgUrl;
 
     @ManyToOne
     @JoinColumn(name = "category_id")

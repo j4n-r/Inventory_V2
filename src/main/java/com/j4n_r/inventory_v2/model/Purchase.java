@@ -1,29 +1,29 @@
 package com.j4n_r.inventory_v2.model;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.sql.Date;
+import java.util.List;
 
 @Data
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
+@Table(name = "purchases")
 public class Purchase {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long purchase_id;
-    private Long product_id;        // TODO refactor after drink
-    private int quantity_purchased;
-    private double purchase_price;
-    private Date purchase_date;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long purchaseId;
+
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User userId;
+    private Date purchaseDate;
 
 }

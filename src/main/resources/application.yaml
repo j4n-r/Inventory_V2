@@ -21,7 +21,7 @@ spring:
 logging:
   level:
     org:
-      springframework.jdbc: DEBUG
+      springframework.jdbc: trace
 
 
 
