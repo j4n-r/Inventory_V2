@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/inventory_v2
+    url: ${DB_URL}
     username: postgres
-    password: mine8465
+    password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
   data:
     rest:
@@ -22,6 +22,7 @@ logging:
   level:
     org:
       springframework.jdbc: trace
-
+server:
+  port: 8000
 
 

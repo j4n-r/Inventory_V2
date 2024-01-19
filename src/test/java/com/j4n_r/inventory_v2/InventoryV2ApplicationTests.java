@@ -10,4 +10,6 @@ class InventoryV2ApplicationTests {
     void contextLoads() {
     }
 
+    // TODO add tests when the integrated rest api is not sufficient anymore
+
 }
